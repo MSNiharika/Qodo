@@ -1,0 +1,10 @@
+{
+  "valid_inputs": [
+    {"input": "Hello, AI!", "expected_output": "Hello, user!"},
+    {"input": "Tell me a joke.", "expected_output": "Why don't scientists trust atoms? Because they make up everything!"}
+  ],
+  "edge_cases": [
+    {"input": "", "expected_output": "Input cannot be empty."},
+    {"input": 123, "expected_output": "Invalid input type."}
+  ]
+}
